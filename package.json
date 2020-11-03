@@ -1,7 +1,7 @@
 {
 	"name": "egg-load",
 	"version": "0.0.1",
-	"description": "",
+	"description": "（推荐）自动装载第三方模块至 Egg.js 框架上",
 	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
@@ -10,11 +10,23 @@
 		"type": "git",
 		"url": "git+https://github.com/inlym/egg-load.git"
 	},
-	"keywords": [],
-	"author": "",
+	"keywords": [
+		"egg",
+		"egg-plugin",
+		"eggPlugin",
+		"Aliyun",
+		"aliyun"
+	],
+	"author": "inlym",
 	"license": "MIT",
 	"bugs": {
 		"url": "https://github.com/inlym/egg-load/issues"
 	},
-	"homepage": "https://github.com/inlym/egg-load#readme"
+	"homepage": "https://github.com/inlym/egg-load#readme",
+	"eggPlugin": {
+		"name": "load"
+	},
+	"dependencies": {
+		"typeasy": "^1.0.0"
+	}
 }
