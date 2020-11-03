@@ -1,6 +1,6 @@
 {
 	"name": "egg-load",
-	"version": "0.0.1",
+	"version": "1.1.0",
 	"description": "（推荐）自动装载第三方模块至 Egg.js 框架上",
 	"main": "index.js",
 	"scripts": {
